@@ -1,0 +1,111 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #5a5a5a;
+}
+
+.nav-link {
+    color: #FF416C !important;
+}
+
+.navbar-logo {
+    height: 50px;
+}
+
+.home-header {
+    margin: auto;   
+    padding: 100px 0px;
+    max-width: 700px;
+}
+
+.home-header h1 {
+    font-weight: 600;
+}
+
+.bg-home {
+    background: url('../img/background-home.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .nav-link {
+        font-size: 20px;
+    }
+    .navbar-logo{
+        height: 70px;
+    }
+    .home-header {
+        padding: 200px 0px;
+    }
+}
+
+.bg-pink {
+    background-color: #FF416C !important;
+}
+
+.home-title {
+    color: #FF4933 !important;
+}
+  
+.carousel {
+  margin-bottom: 4rem;
+}
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+  
+.content .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.content h2 {
+  font-weight: 400;
+}
+.content .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+  
+  
+.featurette-divider {
+  margin-top: 5rem;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+  
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
