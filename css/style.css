@@ -22,7 +22,7 @@ body {
 }
 
 .bg-home {
-    background: url('../img/background-home.png') no-repeat center center;
+    background: url('../img/background-home.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -48,27 +48,7 @@ body {
 .home-title {
     color: #FF4933 !important;
 }
-  
-.carousel {
-  margin-bottom: 4rem;
-}
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
-}
 
-.carousel-item {
-  height: 32rem;
-  background-color: #777;
-}
-.carousel-item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 32rem;
-}
-  
 .content .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
@@ -93,12 +73,6 @@ body {
 }
   
 @media (min-width: 40em) {
-  .carousel-caption p {
-    margin-bottom: 1.25rem;
-    font-size: 1.25rem;
-    line-height: 1.4;
-  }
-
   .featurette-heading {
     font-size: 50px;
   }
