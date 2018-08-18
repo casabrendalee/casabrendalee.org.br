@@ -107,7 +107,7 @@
 
             <div class="row featurette">
                 <div class="col-md-6">
-                    <form action="mailto:matheus.spereira@hotmail.com" method="GET" enctype="text/plain">
+                    <form id="form">
                         <div class="form-group">
                             <label for="nome">Nome</label>
                             <input type="text" class="form-control" name="nome" id="nome" required>
@@ -124,7 +124,10 @@
                             <label for="mensagem">Mensagem</label>
                             <textarea class="form-control" name="mensagem" id="mensagem" rows="3" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-block bg-pink text-white font-weight-bold">Enviar mensagem</button>
+                        <div class="d-none alert alert-primary mt-3" id="alertForm" role="alert">
+                            <strong>Obrigado!</strong> Vamos responder o mais breve possível!
+                        </div>
+                        <button type="submit" class="btn btn-block bg-pink text-white font-weight-bold" id="buttonForm">Enviar mensagem</button>
                     </form>
                 </div>
                 <div class="col-md-6 mt-4 mt-md-0">
@@ -139,6 +142,18 @@
                     <br>instagram.com/casabrendalee</p>
                     <h4>Faça a diferença</h4>
                     <p>Estamos precisando de <strong>voluntários</strong>, junte-se a nós!</p>
+                    <form id="newsletter">
+                        <h4>Inscreva-se em nossa newsletter!</h4>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" name="emailNewsletter" id="emailNewsletter" placeholder="Digite seu e-mail" required>
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-block bg-pink text-white font-weight-bold" id="buttonNewsletter">></button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="d-none alert alert-primary mt-3" id="alertNewsletter" role="alert">
+                        <strong>Prontinho!</strong> Você está inscrito em nossa newsletter.
+                    </div>
                 </div>
             </div>
 
